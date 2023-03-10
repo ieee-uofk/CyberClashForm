@@ -10,7 +10,39 @@
 </head>
 
 <body>
-  Hello There, I'm sorry but you don't have the permissions
+  <h1>Hello There</h1>
+  <h2>
+    This page should redirect you to the application form,<br />
+    but I'm sorry you are not good enough for me to give it to you
+  </h2>
+  <p>
+    if you want the link go ahead and take it by force, but I will not give it
+    to you
+  </p>
 </body>
+<div style="
+      position: relative;
+      padding: 5px;
+      top: 50px;
+      left: 38%;
+      width: 350px;
+      height: 140px;
+      background-color: grey;
+    ">
+  <div style="text-align: center">
+    <p>type the password to continue</p>
+    <form action="index.html" method="post">
+      <input type="password" id="pass" size="8" />
+      <br />
+      <input type="submit" value="verify" onclick="verify(); return false;" />
+    </form>
+  </div>
+</div>
+<!--
+  I don't want to forget the link,
+  so I will split it for security purposes
+  then save it in the css files and other locations
+  maybe I will use my robot to save some parts
+-->
 
 </html>
